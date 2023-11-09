@@ -30,4 +30,7 @@ spec:
           name: db-data
       volumes:
       - name: db-data
-        emptyDir: {} 
+        persistentVolumeClaim:
+          claimName: db-claim
+#     - name: db-data
+#       emptyDir: {} 
