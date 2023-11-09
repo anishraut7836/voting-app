@@ -5,8 +5,11 @@ Voting-app for Kubernetes deployment
 $ git clone https://github.com/anishraut7836/voting-app.git 
 # create docker image for worker app and push it to docker registory
 $ cd voting-app
+
 $ cd worker
+
 $ docker build -t anishraut7836/worker-app:1 .
+
 $ docker push anishraut7836/worker-app:1
 
 # create docker image for vote app and push it to docker registory
