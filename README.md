@@ -14,12 +14,18 @@ $ docker push anishraut7836/worker-app:1
 
 # create docker image for vote app and push it to docker registory
 $ cd ../vote
+
 $ ls -l
+
 $ docker build -t anishraut7836/vote-app:1 .
+
 $ docker push anishraut7836/vote-app:1
 
 # create docker image for result app and push it to docker registory
 $ cd ../result
+
 $ ls -l
+
 $ docker build -t anishraut7836/result-app:1 .
+
 $ docker push anishraut7836/result-app:1
